@@ -25,6 +25,12 @@ h3 {
     min-height: 12vh;
 }
 
+.collapse navbar-collapse {
+    max-height: calc(100vh - 4.5em);
+    overflow-y: auto;
+    ;
+}
+
 .container-fluid {
     margin: 0;
 }
