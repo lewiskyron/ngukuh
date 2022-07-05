@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/5f6946aa21.js" crossorigin="anonymous"></script>
+
+    <!-- unicorn icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital@0;1&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="css\styles.css">
+
+    <title>Document</title>
+</head>
+
+<body id="form_body">
+    <div class="background-image"></div>
+    <form class="form_div">
+        <div class="mb-3">
+            <label for="nameinput" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="nameinput1">
+        </div>
+
+        <div class="mb-3">
+            <label for="lastnameinput" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="nameinput2">
+        </div>
+        <div class="mb-3">
+            <label for="emailaddressinput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="drop-down mb-3">
+            <div>
+                <label for="productinput" class="form-label product">Item</label>
+            </div>
+            <div class="dropdown-selector">
+                <span class="Select">Selected item</span>
+                <i class="fa-solid fa-cart-arrow-down fa-bounce fa-2x"></i>
+            </div>
+
+            <div class="dropdownlist">
+                <div class="dropdownlist-item">Capons</div>
+                <div class="dropdownlist-item">Wings</div>
+                <div class="dropdownlist-item">Boneless</div>
+                <div class="dropdownlist-item">Fish</div>
+                <div class="dropdownlist-item">Drumsticks</div>
+                <div class="dropdownlist-item">Legs</div>
+            </div>
+
+
+        </div>
+
+        <div class="mb-3">
+            <label for="lastnameinput" class="form-label">Quantity</label>
+            <input type="Number" class="form-control" id="nameinput2">
+        </div>
+
+        <div class="mb-3">
+            <label for="lastnameinput" class="form-label">Specification</label>
+            <input type="text" class="form-control" id="nameinput2">
+            <div id="itemhelp" class="form-text">Includes(Skin/No skin, Number of pieces, Boned/deboned, slices/cubes/finely choped)
+            </div>
+
+
+            <div class=" mb-3 form-check ">
+                <input type="checkbox " class="form-check-input " id="exampleCheck1 ">
+                <label class="form-check-label " for="exampleCheck1 ">Check me out</label>
+            </div>
+        </div>
+        <button type="submit " class="btn btn-danger ">Submit</button>
+    </form>
+</body>
+
+</html>
