@@ -18,7 +18,9 @@
             line-height: 1.5;
             font-weight: bold;
         }
-        
+        nav{
+            margin-bottom: 0px;
+        }
         .nav-item {
             color: black;
         }
@@ -39,9 +41,7 @@
             margin: 0;
         }
         
-        nav {
-            bottom: 570px;
-        }
+       
         
         .navbar-brand {
             font: "Ubuntu";
